@@ -1,0 +1,20 @@
+<mat-card class="card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{parameterValue}}</mat-card-title>
+      <mat-card-subtitle>{{campeonTitulo}}</mat-card-subtitle>
+      <mat-card-subtitle></mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/{{parameterValue}}_0.jpg" alt="Photo of the champ">
+    <mat-card-content>
+      <p class="descripcion">
+        {{campeonHistoria}}
+      </p>
+      <mat-chip-list aria-label="Champ selection">
+        <mat-chip>Vida base: {{campeonHP}}</mat-chip>
+        <mat-chip>Vel. de movimiento base: {{campeonspeed}}</mat-chip>
+        <mat-chip>Roles: {{campeonrol}}</mat-chip>
+        <mat-chip>Habilidad definitiva: {{campeonspells}}</mat-chip>
+      </mat-chip-list>
+    </mat-card-content>
+  </mat-card>

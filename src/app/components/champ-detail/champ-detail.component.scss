@@ -1,0 +1,38 @@
+@import "../../../assets/styles/variables.scss";
+
+.card {
+  width: 800px;
+  height: 800px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: $red;
+}
+
+.mat-card-header {
+  position: relative;
+  bottom: 10px;
+  background-color: $white;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+.mat-card-header .mat-card-title {
+}
+
+.mat-card-header .mat-card-subtitle {
+}
+
+.descripcion {
+  color: white;
+  font-size: 15px;
+}
+
+.mat-chip-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: -4px;
+  position: relative;
+  top: 30px;
+}
